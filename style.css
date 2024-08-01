@@ -6,6 +6,7 @@ body{
 .topbar{
     width: 100vw;
     height: 6vh;
+    top:0;
     background-color: black;
     position: fixed;
     display: flex;
