@@ -1,0 +1,76 @@
+body{
+    padding: 0;
+    margin:0;
+    height: 200vh;
+}
+.topbar{
+    width: 100vw;
+    height: 6vh;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 999;
+    transition: top 0.3s; /* Smooth transition for hiding/showing */
+}
+.topbar-holder{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.topbar-holder2{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 3%;
+}
+
+.topbar-holder2 button{
+    color: white;
+    flex: 0 1 auto;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-color: transparent;
+    margin:0px;
+    padding: 0px;
+    position: relative;
+    width: 10%;
+    height: 30%;
+
+}
+.topbar-holder3{
+    flex-grow: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+}
+.bag{
+    width: auto; /* Limit the maximum width of the logo */
+    height: 40%;
+    position: relative;
+    right:10%;
+    top:0%;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    width: auto; /* Limit the maximum width of the logo */
+    height: 70%;
+    position: relative;
+    left:5%;
+    top:0%;
+    padding: 0;
+    margin: 0;
+}
